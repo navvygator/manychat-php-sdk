@@ -1,0 +1,22 @@
+{
+    "name": "navvygator/manychat-php-sdk",
+    "description": "Unofficial PHP SDK for ManyChat API",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Navvygator\\ManychatSDK\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "navvygator",
+            "email": "mikhail.mazein@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "7.5.x-dev"
+    }
+}
